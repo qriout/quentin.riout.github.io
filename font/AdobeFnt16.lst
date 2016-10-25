@@ -1,0 +1,92 @@
+%!Adobe-FontList 1.16
+%Locale:0x40c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\qriout\Documents\Neocase Quentin\fichiers privés Quentin R\personnal site\Font\DINPro-CondBold.eot
+FileModTime:1474548040
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:DINPro-CondensedBold
+FamilyName:DIN Pro
+StyleName:Condensed Bold
+FullName:DIN Pro Condensed Bold
+MenuName:DIN Pro Cond Bold
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\qriout\Documents\Neocase Quentin\fichiers privés Quentin R\personnal site\Font\DINPro-CondBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:130296
+FileModTime:1428932578
+WeightClass:700
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,18,DIN Pro Condensed Bold
+NameArray:0,Mac,4,DIN Pro Condensed Bold
+NameArray:0,Win,1,DIN Pro Cond Bold
+NameArray:0,Win,16,DIN Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:DINPro-CondensedLight
+FamilyName:DIN Pro
+StyleName:Condensed Light
+FullName:DIN Pro Condensed Light
+MenuName:DIN Pro Cond Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\qriout\Documents\Neocase Quentin\fichiers privés Quentin R\personnal site\Font\DINPro-CondLight.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:126752
+FileModTime:1428932578
+WeightClass:300
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,18,DIN Pro Condensed Light
+NameArray:0,Mac,4,DIN Pro Condensed Light
+NameArray:0,Win,1,DIN Pro Cond Light
+NameArray:0,Win,16,DIN Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\qriout\Documents\Neocase Quentin\fichiers privés Quentin R\personnal site\Font\DINPro-CondMedium.eot
+FileModTime:1474548007
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:DINPro-CondensedMedium
+FamilyName:DIN Pro
+StyleName:Condensed Medium
+FullName:DIN Pro Condensed Medium
+MenuName:DIN Pro Cond Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\qriout\Documents\Neocase Quentin\fichiers privés Quentin R\personnal site\Font\DINPro-CondMedium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:130456
+FileModTime:1428932578
+WeightClass:500
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,18,DIN Pro Condensed Medium
+NameArray:0,Mac,4,DIN Pro Condensed Medium
+NameArray:0,Win,1,DIN Pro Cond Medium
+NameArray:0,Win,16,DIN Pro
+%EndFont
+
