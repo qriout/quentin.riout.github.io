@@ -33,19 +33,19 @@ body {
 
 a {
     font-family: 'DinNarrowMedium' !important;
-    font-size: 18px !important;
+    font-size: 20px !important;
 }
 
 p {
     font-family: 'DinNarrowMedium' !important;
     line-height: 24px;
-    font-size: 18px !important;
+    font-size: 20px !important;
 }
 
 label {
     font-family: 'DinNarrowMedium' !important;
     line-height: 24px;
-    font-size: 18px !important;
+    font-size: 20px !important;
     color: #496676;
 
 }
@@ -130,17 +130,15 @@ h2 {
 #firstContainer {
     float: left;
     width: 100%;
-    height: 760px;
     background: url("../images/1stContentBackGround.jpg") no-repeat scroll 0 0 transparent;
+    padding-bottom: 135px;
 }
-
-
 
 
 #BlockLogo {
   
     height: 200px;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -165,7 +163,7 @@ h2 {
 
 .SubFirstContainer p {
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 32px;
     margin: 35px 40px;
     text-align: center;
@@ -185,7 +183,7 @@ h2 {
     width: 15%;
     /* float: left; */
     padding: 15px 0;
-    font-size: 22px;
+    font-size: 20px;
     /* margin-left: 42%; */
     /* margin-right: 42%; */
     color: #fff;
@@ -219,10 +217,10 @@ h2 {
 #secondContainer {
     float: left;
     width: 70%;
-    height: 800px;
     padding-left: 15%;
     padding-right: 15%;
     background: url(../images/2ndContentBackGround.jpg) no-repeat scroll 0 0 transparent;
+    padding-bottom: 65px;
 }
 
 
@@ -261,7 +259,7 @@ h2 {
     margin-bottom: 25px;
     margin-left: 30px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #a6dce7;
+    border-bottom: 2px solid #a6dce7;
     color: #496676;
     font-family: 'DinNarrowBold' !important;
 }
@@ -306,11 +304,11 @@ h2 {
 #thirdContainer {
     width: 70%;
     float: left;
-    height: 980px;
     padding-left: 15%;
     padding-right: 15%;
     background: url(../images/3rdContentBackGround.jpg) no-repeat scroll 0 0 transparent;
     background-size: 1965px;
+    padding-bottom: 45px;
 }
 
 #thirdContainer .IntroBox {
@@ -320,7 +318,7 @@ h2 {
 .thirdContainerInfoBox {
     width: 100%;
     float: left;
-    padding-top: 10px;
+    padding-top: 35px;
     border-top: solid 2px #fff;
 }
 
@@ -335,47 +333,53 @@ h2 {
 }
 
 .thirdContainerInfoBox .leftBox {
-    width: 48%;
+    width: 46%;
     float: left;
-    padding-right: 2%;
+    padding-right: 4%;
 }
 
 .thirdContainerInfoBox .rightBox {
-    width: 48%;
+    width: 46%;
     float: left;
-    padding-left: 2%;
+    padding-left: 4%;
 }
 
 .thirdContainerInfoBox .InfoExp {
     padding-left: 100px;
     color: #496676;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    border-bottom: 2px solid #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* border-bottom: 2px solid #fff; */
 }
 
 .thirdContainerInfoBox .ExpImg1 {
-    background: transparent url(../images/circle1.png) no-repeat scroll 0 35px;
+    background: transparent url(../images/circle6.png) no-repeat scroll 0 25px;
 }
 
 .thirdContainerInfoBox .ExpImg2 {
-    background: transparent url(../images/circle1.png) no-repeat scroll 0 35px;
+    background: transparent url(../images/circle1.png) no-repeat scroll 0 25px;
 }
 
 .thirdContainerInfoBox .ExpImg3 {
-    background: transparent url(../images/circle2.png) no-repeat scroll 0 35px;
+    background: transparent url(../images/circle2.png) no-repeat scroll 0 25px;
 }
 
 .thirdContainerInfoBox .ExpImg4 {
-    background: transparent url(../images/circle3.png) no-repeat scroll 0 35px;
+    background: transparent url(../images/circle3.png) no-repeat scroll 0 25px;
 }
 
 .thirdContainerInfoBox .ExpImg5 {
-    background: transparent url(../images/circle4.png) no-repeat scroll 0 35px;
+    background: transparent url(../images/circle4.png) no-repeat scroll 0 25px;
 }
 
 .thirdContainerInfoBox .ExpImg6 {
-    background: transparent url(../images/circle5.png) no-repeat scroll 0 35px;
+    background: transparent url(../images/circle5.png) no-repeat scroll 0 25px;
+}
+
+.InfoExp h2 {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #fff;
 }
 
 
@@ -384,10 +388,10 @@ h2 {
 #fourthContainer {
     width: 70%;
     float: left;
-    height: 1775px;
     padding-left: 15%;
     padding-right: 15%;
     background: url(../images/4thContentBackGround.jpg) no-repeat scroll 0 0 transparent;
+    padding-bottom: 75px;
 }
 
 #fourthContainer .IntroBox h1 {
@@ -432,7 +436,7 @@ h2 {
     width: 65%;
     /* float: left; */
     padding: 15px 0 16px 0;
-    font-size: 22px;
+    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
     color: #fff; 
@@ -460,10 +464,10 @@ h2 {
 #fifthContainer {
     width: 70%;
     float: left;
-    height: 550px;
     padding-left: 15%;
     padding-right: 15%;
     background: url(../images/5thContentBackGround.jpg) no-repeat scroll 0 -55px transparent;
+    padding-bottom: 65px;
 }
 
 #fifthContainer .IntroBox h1 {
@@ -517,16 +521,20 @@ h2 {
 
 .BackTop {
     width: 12%;
-    float: left;
+    /* float: left; */
     padding: 15px 0 16px 0;
-    font-size: 22px;
-    margin-left: 44%;
-    margin-right: 44%;
+    font-size: 20px;
+    /* margin-left: 44%; */
+    /* margin-right: 44%; */
     color: #fff;
     text-align: center;
     border: 2px #a6dce7 solid;
     font-weight: normal;
     margin-top: 45px;
+    min-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .BackTop:hover,  .BackTop:focus,  .BackTop:active {
@@ -537,12 +545,7 @@ h2 {
 
 /*Media queries*/
 
-@media (max-width: 1650px) {
-	
-	#fourthContainer {
-    	height: 1600px;
-	}
-}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
     
@@ -553,7 +556,7 @@ h2 {
     }
 
     h1 {
-        font-size: 36px !important;
+        font-size: 40px !important;
         font-weight: bold !important;
     }
 
@@ -571,37 +574,254 @@ h2 {
     }
 
     h2 {
-        font-size: 24px !important;
+        font-size: 26px !important;
         font-weight: bold !important;
     }
 
-    #fourthContainer {
-        height: 1350px;
-    }
 
     #firstContainer {
         float: left;
         width: 100%;
-        height: 690px;
         background: url("../images/1stContentBackGround.jpg") no-repeat scroll 0 0 transparent;
     }
 
-    #thirdContainer {
-        height: 1200px;
-        background-size: 2375px;
-    }
 
     #firstContainer {
         float: left;
         width: 100%;
-        height: 690px;
         background: url("../images/1stContentBackGround.jpg") no-repeat scroll -175px 0 transparent;
+    }
+
+    #secondContainer .IntroBox p {
+        width: 100%;
+        color: #496676;
+    }
+
+    .secondContainerInfoBox .leftBox {
+        width: 100%;
+        float: left;
+    }
+
+    .secondContainerInfoBox .leftBox .PersoInfo p {
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+    }
+
+    #secondContainer {
+        background: none;
+    }
+
+    .secondContainerInfoBox .rightBox {
+        width: 100%;
+        float: left;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .secondContainerInfoBox .rightBox .SkillBar {
+        height: 10px;
+    }
+
+    .thirdContainerInfoBox {
+        padding-top: 20px;
+    }
+
+    #thirdContainer .IntroBox p {
+        width: 100%;
+        color: #496676;
+    }
+
+    .thirdContainerInfoBox .leftBox {
+        width: 100%;
+        float: left;
+        padding-right: 0;
+    }
+
+    .thirdContainerInfoBox .rightBox {
+        width: 100%;
+        float: left;
+        padding-left: 0;
+    }
+
+    #fourthContainer .IntroBox p {
+        width: 100%;
+        color: #fff;
+    }
+
+    .checkWork {
+        padding-top: 6%;
+    }
+
+    .fourthContainerInfoBox .checkWork h2 {
+        text-align: center;
+        color: #fff;
+        padding-bottom: 10%;
+    }
+
+    #fifthContainer .IntroBox p {
+        width: 100%;
+        color: #496676;
+    }
+
+    #fifthContainer {
+        background: url(../images/5thContentBackGround.jpg) no-repeat scroll -70px -55px transparent;
     }
 
 }
 
 @media (max-width: 767px) {
     
+    p {
+        font-size: 26px !important;
+        line-height: 32px !important;
+    }
+
+    a {
+        font-size: 26px !important;
+        line-height: 32px !important;
+    } 
+
+    label {
+        font-size: 26px !important;
+        line-height: 32px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .SubFirstContainer p {
+        width: 90%;
+    
+    }
+
+    .ViewProfile a {
+        width: 75%;
+    }
+
+    #firstContainer {
+        float: left;
+        width: 100%;
+        background: url("../images/1stContentBackGround.jpg") no-repeat scroll -600px 0 transparent;
+    }
+
+    .navbar {
+        float: left;
+        width: 100%;
+    }
+
+    #BlockLogo {
+        margin-top: 135px;
+        height: inherit;
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    #secondContainer {
+        float: left;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background: none;
+    }
+
+    #secondContainer .IntroBox p {
+        width: 100%;
+        color: #496676;
+    }
+
+    .secondContainerInfoBox .leftBox {
+        width: 100%;
+        float: left;
+    }
+
+    .secondContainerInfoBox img {
+        width: 30%;
+        float: left;
+    }
+
+    .secondContainerInfoBox .leftBox .PersoInfo {
+        width: 100%;
+        float: left;
+    }
+
+    .secondContainerInfoBox .rightBox {
+        width: 100%;
+        float: left;
+        margin-left: 0;
+    }
+
+    .secondContainerInfoBox .rightBox .SkillBar {
+        margin-bottom: 15px;
+        height: 12px;
+    }
+
+    #thirdContainer {
+        float: left;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-size: 2050px;
+    }
+
+    #thirdContainer .IntroBox p {
+        width: 100%;
+        color: #496676;
+    }
+
+    .thirdContainerInfoBox .leftBox {
+        width: 100%;
+        float: left;
+        padding-right: 0;
+    }
+
+    .thirdContainerInfoBox .rightBox {
+        width: 100%;
+        float: left;
+        padding-left: 0;
+    }
+
+    #fourthContainer {
+        float: left;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #fourthContainer .IntroBox p {
+        width: 100%;
+        color: #fff;
+    }
+
+    .WorkPic3, .WorkPic2 {
+        display: none;
+    }
+
+    .fourthContainerInfoBox .WorkPic .WorkPic1 {
+        display: block;
+        margin: auto;
+        width: 55%;
+    }
+
+    .secondContainerInfoBox .leftBox .PersoInfo p {
+        margin-left: 0;
+    }
+
+    .secondContainerInfoBox .leftBox .PersoInfo {
+        width: 100%;
+        float: left;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+
+    .checkWork {
+        float: left;
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .fourthContainerInfoBox .checkWork a {
+        width: 75%;
+    }    
+
 }
 
 
