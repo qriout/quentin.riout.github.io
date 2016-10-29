@@ -1,21 +1,21 @@
 /*MISE EN PLACE DE FONT*/
 
 @font-face {
-	font-family: 'DinNarrowMedium';
-	src: url(../font/DINPro-CondMedium.eot) format('embedded-opentype'),
-		 url(../font/DINPro-CondMedium.ttf) format('truetype');
+    font-family: 'DinNarrowMedium';
+    src: url(../font/DINPro-CondMedium.eot) format('embedded-opentype'),
+         url(../font/DINPro-CondMedium.ttf) format('truetype');
 }
 /*
 @font-face {
-	font-family: 'DinNarrowLight';
-	src: url(../font/DINPro-CondLight.otf) format('opentype'),
-		 url(../font/DINPro-CondLight.ttf) format('truetype');
+    font-family: 'DinNarrowLight';
+    src: url(../font/DINPro-CondLight.otf) format('opentype'),
+         url(../font/DINPro-CondLight.ttf) format('truetype');
 }
 */
 @font-face {
-	font-family: 'DinNarrowBold';
-	src: url(../font/DINPro-CondBold.eot) format('embedded-opentype'),
-	     url(../font/DINPro-CondBold.ttf) format('truetype');
+    font-family: 'DinNarrowBold';
+    src: url(../font/DINPro-CondBold.eot) format('embedded-opentype'),
+         url(../font/DINPro-CondBold.ttf) format('truetype');
 }
 
 /*BODY*/
@@ -28,25 +28,25 @@ body {
 }
 
 body {
-	
-	font-size: 18px;
+    
+    font-size: 18px;
 }
 
 a {
     font-family: 'DinNarrowMedium' !important;
-    font-size: 20px !important;
+    font-size: 20px ;
 }
 
 p {
     font-family: 'DinNarrowMedium' !important;
-    line-height: 24px;
-    font-size: 20px !important;
+    line-height: 28px;
+    font-size: 20px ;
 }
 
 label {
     font-family: 'DinNarrowMedium' !important;
-    line-height: 24px;
-    font-size: 20px !important;
+    line-height: 28px;
+    font-size: 20px ;
     color: #496676;
 }
 
@@ -55,7 +55,7 @@ h1 {
 }
 
 h2 {
-    font-size: 26px !important;
+    font-size: 26px ;
     font-family: 'DinNarrowBold';
 }
 
@@ -75,6 +75,7 @@ h2 {
     text-decoration: none;
     font-weight: normal;
     color: #fff;
+    font-size: 20px;
 }
 
 #menu {   
@@ -86,29 +87,29 @@ h2 {
 }
 
 .fa:before {
-	font-family:'FontAwesome';
-	margin-right: 5px;
+    font-family:'FontAwesome';
+    margin-right: 5px;
 }
 
 /*
 .ico1 {
-	background: url("../images/Home_Ico.png") no-repeat scroll 20px 20px transparent;
+    background: url("../images/Home_Ico.png") no-repeat scroll 20px 20px transparent;
 }
 
 .ico2 {
-	background: url("../images/About_Ico.png") no-repeat scroll 25px 20px transparent;
+    background: url("../images/About_Ico.png") no-repeat scroll 25px 20px transparent;
 }
 
 .ico3 {
-	background: url("../images/Resume_Ico.png") no-repeat scroll 22px 21px transparent;
+    background: url("../images/Resume_Ico.png") no-repeat scroll 22px 21px transparent;
 }
 
 .ico4 {
-	background: url("../images/Port_Ico.png") no-repeat scroll 22px 20px transparent;
+    background: url("../images/Port_Ico.png") no-repeat scroll 22px 20px transparent;
 }
 
 .ico5 {
-	background: url("../images/Contact_Ico.png") no-repeat scroll 22px 20px transparent;
+    background: url("../images/Contact_Ico.png") no-repeat scroll 22px 20px transparent;
 }
 */
 
@@ -163,7 +164,7 @@ h2 {
 .SubFirstContainer p {
     color: #fff;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 28px;
     margin: 35px 40px;
     text-align: center;
     width: 410px;
@@ -512,10 +513,10 @@ h2 {
 /*footer*/
 
 .footer {
-	width: 100%;
+    width: 100%;
     background: #23343e;
     float: left;
-    height: 150px; 
+    height: 180px;
 }
 
 .BackTop {
@@ -546,37 +547,32 @@ h2 {
 
 /*Media queries*/
 
-
-
-@media screen and (max-width: 1024px) {
+@media screen and (min-width:768px) and (max-width: 1024px) {
     
     p {
-        font-family: 'DinNarrowMedium' !important;
-        line-height: 28px !important;
-        font-size: 20px !important;
+        line-height: 28px ;
+        font-size: 20px ;
     }
 
     h1 {
-        font-size: 40px !important;
-        font-weight: bold !important;
+        font-size: 40px ;
+        font-weight: bold ;
     }
 
     a {
-        font-family: 'DinNarrowMedium' !important;
-        font-size: 20px !important;
-        line-height: 28px !important;
+        font-size: 20px ;
+        line-height: 28px ;
     }
 
     label {
-        font-family: 'DinNarrowMedium' !important;
         line-height: 28px;
-        font-size: 20px !important;
+        font-size: 20px ;
         color: #496676;
     }
 
     h2 {
-        font-size: 26px !important;
-        font-weight: bold !important;
+        font-size: 26px ;
+        font-weight: bold ;
     }
 
 
@@ -670,36 +666,59 @@ h2 {
 
 }
 
-@media screen and ( max-width: 767px ) {
+@media screen and ( max-device-width: 767px ) {
     
     p {
-        font-size: 26px !important;
-        line-height: 32px !important;
+        font-size: 30px !important;
+        line-height: 36px !important;
     }
 
     a {
-        font-size: 26px;
-        line-height: 32px !important;
+        font-size: 30px !important;
+        line-height: 36px !important;
     } 
-
+    
     label {
-        font-size: 26px !important;
-        line-height: 32px !important;
-        margin-bottom: 5px !important;
+        font-size: 30px;
+        line-height: 36px !important;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h1, 
+    .IntroBox h1, 
+    .SubFirstContainer h1 {
+        font-size: 48px;
+    }
+
+    #firstContainer .SubFirstContainer {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .SubFirstContainer p {
-        width: 90%;
+        width: 100%;
+        margin-bottom: 50px;
     }
 
     .ViewProfile a {
-        width: 75%;
+        width: 100%;
+        padding: 25px 0;
+        border: 4px #a6dce7 solid;
+        font-size: 30px;
     }
 
     #firstContainer {
         float: left;
         width: 100%;
-        background: url("../images/1stContentBackGround.jpg") no-repeat scroll -600px 0 transparent;
+        background: url("../images/1stContentBackGround.jpg") no-repeat scroll -700px 0 transparent;
+        overflow: hidden;
+        background-size: cover;
     }
 
     .navbar {
@@ -709,7 +728,7 @@ h2 {
 
     .boutonMenu a {
         padding: 15px 2%;
-        font-size: 18px !important;
+        font-size: 26px !important;
     }
 
     #BlockLogo {
@@ -724,7 +743,7 @@ h2 {
         width: 90%;
         padding-left: 5%;
         padding-right: 5%;
-        background: none;
+        background: none !important;
     }
 
     #secondContainer .IntroBox p {
@@ -783,11 +802,18 @@ h2 {
         padding-left: 0;
     }
 
+    .thirdContainerInfoBox .InfoExp {
+        padding-bottom: 30px;
+        padding-top: 30px;
+
+    }
+
     #fourthContainer {
         float: left;
         width: 90%;
         padding-left: 5%;
         padding-right: 5%;
+        background-size: cover;
     }
 
     #fourthContainer .IntroBox p {
@@ -825,8 +851,10 @@ h2 {
     }
 
     .fourthContainerInfoBox .checkWork a {
-        width: 75%;
-    }    
+        width: 100%;
+        padding: 25px 0;
+        border: 4px solid #a6dce7;
+    }
 
     #fifthContainer {
         width: 90%;
@@ -843,7 +871,9 @@ h2 {
     }
 
     .BackTop {
-        width: 75%;
+        width: 90%;
+        padding: 25px 0;
+        border: 4px solid #a6dce7;
     }
 
 }
