@@ -904,5 +904,20 @@ h2 {
         border: 2px solid #a6dce7;
     }
 
-}
+    .CVcontainer a {
+        width: 100%;
+        /* float: left; */
+        padding: 15px 0 16px 0;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #496676;
+        text-align: center;
+        border: 2px #fff solid;
+        font-weight: normal;
+        min-width: 150px;
+        display: block;
+        margin-top: 30px;
+    }
 
+}
