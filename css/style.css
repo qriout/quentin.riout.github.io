@@ -381,6 +381,33 @@ h2 {
     border-bottom: 2px solid #fff;
 }
 
+.CVcontainer {
+    width: 100%;
+    display: inline-block;
+}
+
+.CVcontainer a {
+    width: 25%;
+    /* float: left; */
+    padding: 15px 0 16px 0;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #496676;
+    text-align: center;
+    border: 2px #fff solid;
+    font-weight: normal;
+    min-width: 150px;
+    display: block;
+    margin-top: 30px;
+}
+
+
+.CVcontainer a:hover,  .CVcontainer a:focus,  .CVcontainer a:active {
+    background: #fff;
+    border: 2px solid #fff;
+    transition: 0.3s;
+}
 
 /*4th CONTAINER*/
 
@@ -878,4 +905,5 @@ h2 {
     }
 
 }
+
 
