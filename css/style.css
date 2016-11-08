@@ -419,6 +419,7 @@ h2 {
     padding-right: 15%;
     background: url(../images/4thContentBackGround.jpg) no-repeat scroll 0 0 transparent;
     padding-bottom: 75px;
+     background-attachment: fixed;
 }
 
 #fourthContainer .IntroBox h1 {
