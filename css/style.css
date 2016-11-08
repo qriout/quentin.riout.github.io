@@ -617,6 +617,7 @@ h2 {
         float: left;
         width: 100%;
         background: url("../images/1stContentBackGround.jpg") no-repeat scroll -175px 0 transparent;
+         background-attachment: fixed;
     }
 
     #secondContainer .IntroBox p {
