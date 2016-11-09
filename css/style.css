@@ -66,6 +66,7 @@ h2 {
 
 .navbar {
     float: right;
+    padding-right: 15px;
 }
 
 .boutonMenu a {
