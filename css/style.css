@@ -66,9 +66,10 @@ h2 {
 
 .navbar {
     float: right;
-    padding-right: 15px;
 }
-
+#burgerMenu{
+        display: none;
+    }
 .boutonMenu a {
     float: left;
     text-align: right;
@@ -135,7 +136,6 @@ h2 {
     width: 100%;
     background: url("../images/1stContentBackGround.jpg") no-repeat scroll 0 0 transparent;
     padding-bottom: 135px;
-    background-attachment: fixed;
 }
 
 
@@ -420,7 +420,6 @@ h2 {
     padding-right: 15%;
     background: url(../images/4thContentBackGround.jpg) no-repeat scroll 0 0 transparent;
     padding-bottom: 75px;
-  
 }
 
 #fourthContainer .IntroBox h1 {
@@ -610,7 +609,6 @@ h2 {
         float: left;
         width: 100%;
         background: url("../images/1stContentBackGround.jpg") no-repeat scroll 0 0 transparent;
-         background-attachment: fixed;
     }
 
 
@@ -618,7 +616,6 @@ h2 {
         float: left;
         width: 100%;
         background: url("../images/1stContentBackGround.jpg") no-repeat scroll -175px 0 transparent;
-         background-attachment: fixed;
     }
 
     #secondContainer .IntroBox p {
@@ -699,7 +696,46 @@ h2 {
 }
 
 @media screen and ( max-width: 767px ) {
-    
+
+    #menu{
+       position: fixed; 
+    }
+    #burgerMenu{
+        display: block;
+        color: #fff;
+        float: right;
+        padding: 15px;
+    }
+    #burgerMenu:hover,
+    #burgerMenu:active,
+    #burgerMenu:focus{
+        color: #fff;
+    }
+    #menu .navbar{
+        display: none;
+    }
+    #menu.open{
+        height: 100vh; 
+    }
+    #menu.open .navbar{
+        display:block;
+        position: absolute;
+        top:50%;
+        transform :translateY(-50%);
+    }
+    #menu.open .navbar span{
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    #menu.open .navbar span a{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
     p {
         font-size: 20px !important;
         line-height: 26px !important;
@@ -752,7 +788,6 @@ h2 {
         overflow: hidden;
         background-size: cover;
         padding-bottom: 85px;
-        
     }
 
     .navbar {
