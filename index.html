@@ -196,14 +196,15 @@
 		</div>
 		<script>
 		var $menu = document.getElementById('burgerMenu'),
-		$body = document.getElementsByTagName('body')[0],
 		$boutonMenu = document.getElementsByClassName('boutonMenu');
 
 		var removeNavMobile = function(){
-			var $nav = document.getElementById('menu');
+			var $nav = document.getElementById('menu'),
+			$body = document.getElementsByTagName('body')[0];
+		
 			$menu.className = ($nav.className == '')?'fa fa-close':'fa fa-bars';
 			$nav.className = ($nav.className == '')?'open':'';
-			$body.style.overflow = ($nav.className == '')?'hidden':'auto';
+			$body.style.overflow = ($nav.className == '')?'auto':'hidden';
 		}
 		var navMobile = function(event){
 			event.preventDefault();
@@ -219,3 +220,5 @@
 		</script>
 	</body>
 </html>
+
+
