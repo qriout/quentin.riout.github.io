@@ -950,6 +950,8 @@ h2 {
         display:block;
         position: absolute;
         top:50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
     }
     #menu.open .navbar span{
         display: block;
