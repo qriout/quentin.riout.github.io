@@ -943,12 +943,15 @@ h2 {
     }
     /*Menu burger ouvert*/
     #menu.open{
-        height: 100vh; 
+        height: 100vh;
+        position: relative; 
     }
     #menu.open .navbar{
         display:block;
         position: absolute;
-        top:25%;
+        top:50%;
+        transform: translateY(-50%);
+         -webkit-transform: translateY(-50%);
     }
     #menu.open .navbar span{
         display: block;
