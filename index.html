@@ -195,27 +195,20 @@
 			</div>
 		</div>
 		<script>
-		var $menu = document.getElementById('burgerMenu');
-		var $body = document.getElementsByTagName('body')[0];
+		var $menu = document.getElementById('burgerMenu'),
+		$body = document.getElementsByTagName('body')[0],
+		$boutonMenu = document.getElementsByClassName('boutonMenu');
+
 		var removeNavMobile = function(){
 			var $nav = document.getElementById('menu');
-			if($nav.className == ''){
-				$menu.className = 'fa fa-close';
-				$nav.className = 'open';
-				$body.style.overflow = 'hidden';
-			}else{
-				$menu.className = 'fa fa-bars';
-				$nav.className = '';
-				$body.style.overflow = 'auto';
-			}
+			$menu.className = ($nav.className == '')?'fa fa-close':'fa fa-bars';
+			$nav.className = ($nav.className == '')?'open':'';
+			$body.style.overflow = ($nav.className == '')?'hidden':'auto';
 		}
 		var navMobile = function(event){
 			event.preventDefault();
 			removeNavMobile();
 		}
-		$menu.addEventListener('click',navMobile,false);
-
-		var $boutonMenu = document.getElementsByClassName('boutonMenu');
 
 		for (var i = 0; i < $boutonMenu.length; i++) {
 			var $lien = $boutonMenu[i].getElementsByClassName('fa')[0];
@@ -226,5 +219,3 @@
 		</script>
 	</body>
 </html>
-
-
