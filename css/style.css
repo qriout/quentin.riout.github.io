@@ -947,6 +947,10 @@ h2 {
     }
     #menu.open .navbar{
         display:block;
+        position: absolute;
+        top:50%;
+        -webkit-transform:translateY(-50%);
+        transform :translateY(-50%);
     }
     #menu.open .navbar span{
         display: block;
