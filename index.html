@@ -204,7 +204,7 @@
 		
 			$menu.className = ($nav.className == '')?'fa fa-close':'fa fa-bars';
 			$nav.className = ($nav.className == '')?'open':'';
-			$body.style.overflow = ($nav.className == '')?'auto':'hidden';
+			$body.style.overflow = ($nav.className == '')?'hidden':'auto';
 		}
 		var navMobile = function(event){
 			event.preventDefault();
@@ -220,5 +220,3 @@
 		</script>
 	</body>
 </html>
-
-
