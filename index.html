@@ -217,6 +217,12 @@
 		};
 
 		$menu.addEventListener('click',navMobile,false);
+			addEvent(window, "resize", function(event) {
+		if(window.length > 580){
+			var $body = document.getElementsByTagName('body')[0];
+			$body.style.overflow = ’auto’;
+			}
+		});
 		</script>
 	</body>
 </html>
