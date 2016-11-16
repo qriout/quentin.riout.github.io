@@ -609,8 +609,8 @@ h2 {
     #firstContainer {
         float: left;
         width: 100%;
-        background: url("../images/1stContentBackGround.jpg") no-repeat scroll 0 0 transparent;
-        background-attachment:fixed;
+        background: url("../images/1stContentBackGround.jpg") no-repeat scroll -180px 0 transparent;
+        background-attachment: fixed;
     }
 
     #secondContainer .IntroBox p {
@@ -688,6 +688,10 @@ h2 {
         background: url(../images/5thContentBackGround.jpg) no-repeat scroll -70px -55px transparent;
     }
 
+    #fourthContainer {
+        background-position-x: -115px;
+    }
+
 }
 @media screen and ( max-width: 767px ) {
 
@@ -739,7 +743,7 @@ h2 {
     #firstContainer {
         float: left;
         width: 100%;
-        background: url("../images/1stContentBackGround.jpg") no-repeat scroll -700px 0 transparent;
+        background: url("../images/1stContentBackGround.jpg") no-repeat scroll -450px 0 transparent;
         overflow: hidden;
         background-size: cover;
         padding-bottom: 85px;
@@ -838,6 +842,7 @@ h2 {
         padding-left: 5%;
         padding-right: 5%;
         background-size: cover;
+        background-position-x: -380px;
     }
 
     #fourthContainer .IntroBox p {
