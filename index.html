@@ -256,17 +256,21 @@
 	FLUID SCROLL
 	********************************/
 	
-	jQuery(function($) { 
+	$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) {
  
-	$('a[href^="#"]').live('click',function(event){
-	    event.preventDefault();
-	    var target_offset = $(this.hash).offset() ? $(this.hash).offset().top : 0;
-	    //change this number to create the additional off set        
-	    var customoffset = 85;
-	    $('html, body').animate({scrollTop:target_offset - customoffset}, 500);
-	});
- 
-	}(jQuery));
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});
+	
 	
 </script>
 </body>
