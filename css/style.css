@@ -141,11 +141,12 @@ h2 {
 
 
 #BlockLogo {
-    height: 200px;
+    height: 170px;
     margin-top: 8%;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-bottom: 20px;
 }
 
 .SubFirstContainer h1 {
