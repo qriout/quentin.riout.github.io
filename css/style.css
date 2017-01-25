@@ -155,7 +155,7 @@ SVG TEST ANIMATION
 ***********************/
 
 svg {
-    width: 510px;
+    width: 450px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -167,14 +167,14 @@ path,
 line {
   fill: #fff;
   stroke: #ffffff;
-  stroke-width: 0; 
-  stroke-linecap: round; 
+  stroke-width: 1; 
+  /*stroke-linecap: round; */
   stroke-linejoin: round;
   stroke-miterlimit: 10;
 }
 
 .stroke-1 {
-  stroke-dasharray: 360;
+  stroke-dasharray: 1000;
   animation: write1 3s infinite linear;
   animation-iteration-count: 1;
 }
@@ -195,12 +195,12 @@ line {
 
 
 @keyframes write1 {
-    /*0% {
-        stroke-dashoffset: 360;
+    0% {
+        stroke-dashoffset: 1000;
     }
     100% {
         stroke-dashoffset: 0;
-    }*/
+    }
       from { fill-opacity: 0; }
     to { fill-opacity: 1; }
 }
