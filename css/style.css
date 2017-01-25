@@ -149,6 +149,72 @@ h2 {
     margin-bottom: 20px;
 }
 
+
+/******************************************************************************************
+SVG TEST ANIMATION
+******************************************************************************************/
+
+path,
+line {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.stroke-1 {
+  stroke-dasharray: 360;
+  animation: write1 3s infinite linear;
+}
+ 
+.stroke-2 {
+  stroke-dasharray: 20;
+  animation: write2 3s infinite linear;
+}
+ 
+.stroke-3 {
+  stroke-dasharray: 200;
+  animation: write3 3s infinite linear;
+}
+
+
+
+
+@keyframes write1 {
+    0% {
+        stroke-dashoffset: 360;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write2 {
+    0% {
+        stroke-dashoffset: 20;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write3 {
+    0% {
+        stroke-dashoffset: 200;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+/***************************************************************************************
+CONTINUE AFTER SVG ANIMATION
+***************************************************************************************/
+
+
 .SubFirstContainer h1 {
     color: #a6dce7;
     /* font-family: arial; */
