@@ -152,7 +152,7 @@ h2 {
 
 /******************************************************************************************
 SVG TEST ANIMATION
-*******************************/
+***********************/
 
 svg {
     width: 510px;
@@ -167,8 +167,8 @@ path,
 line {
   fill: #fff;
   stroke: #ffffff;
-  /* stroke-width: 2; */
-  /* stroke-linecap: round; */
+  stroke-width: 0; 
+  stroke-linecap: round; 
   stroke-linejoin: round;
   stroke-miterlimit: 10;
 }
@@ -195,34 +195,40 @@ line {
 
 
 @keyframes write1 {
-    0% {
+    /*0% {
         stroke-dashoffset: 360;
     }
     100% {
         stroke-dashoffset: 0;
-    }
+    }*/
+      from { fill-opacity: 0; }
+    to { fill-opacity: 1; }
 }
 
 @keyframes write2 {
-    0% {
+    /*0% {
         stroke-dashoffset: 20;
     }
     100% {
         stroke-dashoffset: 0;
-    }
+    }*/
+      from { fill-opacity: 0; }
+  to { fill-opacity: 1; }
 }
 
 @keyframes write3 {
-    0% {
+    /*0% {
         stroke-dashoffset: 200;
     }
     100% {
         stroke-dashoffset: 0;
-    }
+    }*/
+    from { fill-opacity: 0; }
+  to { fill-opacity: 1; }
 }
 
 
-/*******************************************************
+/***********************************************
 CONTINUE AFTER SVG ANIMATION
 ***************************************************************************************/
 
