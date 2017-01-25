@@ -186,7 +186,7 @@ line {
 }
  
 .stroke-3 {
-  stroke-dasharray: 1000;
+  stroke-dasharray: 950;
   animation: write3 2s ease;
     animation-iteration-count: 1;
 }
@@ -222,7 +222,7 @@ line {
 
 @keyframes write3 {
     0% {
-        stroke-dashoffset: 1000;
+        stroke-dashoffset: 950;
         fill-opacity: 0;
     }
     65% {
