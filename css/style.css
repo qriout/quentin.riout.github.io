@@ -175,34 +175,34 @@ line {
 
 .stroke-1 {
   stroke-dasharray: 2000;
-  animation: write1 3s infinite linear ease-in;
+  animation: write1 3s linear ease-in;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
  
 .stroke-2 {
   stroke-dasharray: 20;
   animation: write2 3s infinite linear;    
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
  
 .stroke-3 {
   stroke-dasharray: 200;
   animation: write3 3s infinite linear;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 
 
 @keyframes write1 {
     0% {
         stroke-dashoffset: 2000;
-        fill-opacity: 0;
+        background-color: transparent;
     }
+    85% {
+        background-color: transparent;
+    }    
     100% {
         stroke-dashoffset: 0;
-        fill-opacity: 1;
+        background-color: #fff;
     }
 }
 
