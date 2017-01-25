@@ -182,15 +182,17 @@ line {
  
 .stroke-2 {
   stroke-dasharray: 20;
-  animation: write2 3s infinite linear;
+  animation: write2 3s infinite linear;    
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
  
 .stroke-3 {
   stroke-dasharray: 200;
   animation: write3 3s infinite linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
-
-
 
 
 @keyframes write1 {
