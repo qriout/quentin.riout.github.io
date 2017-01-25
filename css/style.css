@@ -165,9 +165,9 @@ svg {
 
 path,
 line {
-  fill: none;
+  fill: #ffffff;
   stroke: #ffffff;
-  stroke-width: 2;
+  stroke-width: 1;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
@@ -194,12 +194,14 @@ line {
 
 @keyframes write1 {
     0% {
-        stroke-dashoffset: 2350;
-        
+        stroke-dashoffset: 2350;        
     }
+    85% {
+        fill-opacity: 0;
+    }  
     100% {
         stroke-dashoffset: 0;
-        
+        fill-opacity: 1;
     }
 }
 
