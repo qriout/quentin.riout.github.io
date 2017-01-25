@@ -175,7 +175,7 @@ line {
 
 .stroke-1 {
   stroke-dasharray: 3000;
-  animation: write1 3s infinite linear;
+  animation: write1 3s infinite linear ease-in;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
