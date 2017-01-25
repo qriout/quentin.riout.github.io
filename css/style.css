@@ -180,7 +180,7 @@ line {
 }
  
 .stroke-2 {
-  stroke-dasharray: 75;
+  stroke-dasharray: 65;
   animation: write2 2s ease;    
     animation-iteration-count: 1;
 }
@@ -208,7 +208,7 @@ line {
 
 @keyframes write2 {
     0% {
-        stroke-dashoffset: 75;
+        stroke-dashoffset: 65;
         fill-opacity: 0;
     }
     65% {
