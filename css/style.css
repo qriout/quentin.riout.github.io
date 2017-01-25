@@ -174,7 +174,7 @@ line {
 }
 
 .stroke-1 {
-  stroke-dasharray: 3000;
+  stroke-dasharray: 2500;
   animation: write1 3s infinite linear ease-in;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -197,7 +197,7 @@ line {
 
 @keyframes write1 {
     0% {
-        stroke-dashoffset: 3000;
+        stroke-dashoffset: 2500;
         opacity: 0;
     }
     100% {
