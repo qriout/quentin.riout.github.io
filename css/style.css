@@ -175,19 +175,19 @@ line {
 
 .stroke-1 {
   stroke-dasharray: 2350;
-  animation: write1 2s linear infinite;
+  animation: write1 2s ease;
     animation-iteration-count: 1;
 }
  
 .stroke-2 {
   stroke-dasharray: 20;
-  animation: write2 2s infinite linear;    
+  animation: write2 2s ease;    
     animation-iteration-count: 1;
 }
  
 .stroke-3 {
   stroke-dasharray: 200;
-  animation: write3 2s infinite linear;
+  animation: write3 2s ease;
     animation-iteration-count: 1;
 }
 
