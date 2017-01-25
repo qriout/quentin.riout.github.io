@@ -174,7 +174,7 @@ line {
 }
 
 .stroke-1 {
-  stroke-dasharray: 2300;
+  stroke-dasharray: 2350;
   animation: write1 3s linear infinite;
     animation-iteration-count: 1;
 }
@@ -194,7 +194,7 @@ line {
 
 @keyframes write1 {
     0% {
-        stroke-dashoffset: 2300;
+        stroke-dashoffset: 2350;
         
     }
     100% {
