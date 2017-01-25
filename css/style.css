@@ -180,7 +180,7 @@ line {
 }
  
 .stroke-2 {
-  stroke-dasharray: 20;
+  stroke-dasharray: 100;
   animation: write2 2s ease;    
     animation-iteration-count: 1;
 }
@@ -208,28 +208,34 @@ line {
 
 @keyframes write2 {
     0% {
-        stroke-dashoffset: 20;
-        opacity: 0;
+        stroke-dashoffset: 100;
+        fill-opacity: 0;
     }
+    65% {
+        fill-opacity: 0;
+    }  
     100% {
         stroke-dashoffset: 0;
-        opacity: 1;
+        fill-opacity: 1;
     }
 }
 
 @keyframes write3 {
     0% {
         stroke-dashoffset: 200;
-        opacity: 0;
+        fill-opacity: 0;
     }
+    65% {
+        fill-opacity: 0;
+    }  
     100% {
         stroke-dashoffset: 0;
-        opacity: 1;
+        fill-opacity: 1;
     }
 }
 
 
-/***********************************************
+/**************************************************************************************
 CONTINUE AFTER SVG ANIMATION
 ***************************************************************************************/
 
