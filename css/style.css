@@ -154,6 +154,15 @@ h2 {
 SVG TEST ANIMATION
 *******************************/
 
+svg {
+    width: 510px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    margin-bottom: 20px;
+}
+
 path,
 line {
   fill: #fff;
