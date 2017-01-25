@@ -165,7 +165,7 @@ svg {
 
 path,
 line {
-  fill: #ffffff;
+  fill: none;
   stroke: #ffffff;
   stroke-width: 2;
   stroke-linecap: round;
