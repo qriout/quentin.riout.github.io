@@ -179,6 +179,7 @@ line {
   -moz-stroke-dasharray: 2350;
   animation: write1 3s ease;
     animation-iteration-count: infinite;
+    animation-delay: 3s;
 }
  
 .stroke-2 {
@@ -187,6 +188,7 @@ line {
   -moz-stroke-dasharray: 45;
   animation: write2 3s ease;    
     animation-iteration-count: infinite;
+    animation-delay: 3s;
 }
  
 .stroke-3 {
@@ -195,6 +197,7 @@ line {
   -moz-stroke-dasharray: 950;
   animation: write3 3s ease;
     animation-iteration-count: infinite;
+    animation-delay: 3s;
 }
 
 
