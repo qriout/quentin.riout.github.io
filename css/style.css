@@ -178,7 +178,10 @@ line {
   -webkit-stroke-dasharray: 2350;
   -moz-stroke-dasharray: 2350;
   animation: write1 3s ease;
-    animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
  
 }
  
@@ -187,7 +190,10 @@ line {
   -webkit-stroke-dasharray: 45;
   -moz-stroke-dasharray: 45;
   animation: write2 3s ease;    
-    animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
  
 }
  
@@ -196,7 +202,10 @@ line {
   -webkit-stroke-dasharray: 950;
   -moz-stroke-dasharray: 950;
   animation: write3 3s ease;
-    animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
 
 }
 
