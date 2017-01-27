@@ -136,7 +136,7 @@ h2 {
 #firstContainer {
     float: left;
     width: 100%;
-    background: url(../images/1stContentBackGround.jpg) no-repeat scroll -15px 0 transparent;
+    background: url(../images/1stContentBackGround.jpg) no-repeat scroll 50% 0 transparent;
     padding-bottom: 135px;
     /* background-attachment: fixed; */
 }
