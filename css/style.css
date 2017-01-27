@@ -203,7 +203,7 @@ line {
         stroke-dashoffset: 2350;
         fill-opacity: 0;
     }
-    10% {
+    20% {
         stroke-dashoffset: 2350;
         -webkit-stroke-dashoffset: 2350;
         -moz-stroke-dashoffset: 2350;
@@ -212,7 +212,7 @@ line {
     65% {
         fill-opacity: 0;
     }  
-    80% {
+    100% {
         stroke-dashoffset: 0;
         -webkit-stroke-dashoffset: 0;
         -moz-stroke-dashoffset: 0;
@@ -225,7 +225,7 @@ line {
         stroke-dashoffset: 45;
         fill-opacity: 0;
     }
-    35% {
+    45% {
         stroke-dashoffset: 45;
         -webkit-stroke-dashoffset: 45;
         -moz-stroke-dashoffset: 45;
@@ -234,7 +234,7 @@ line {
     65% {
         fill-opacity: 0;
     }  
-    80% {
+    100% {
         stroke-dashoffset: 0;
         -webkit-stroke-dashoffset: 0;
         -moz-stroke-dashoffset: 0;
@@ -247,7 +247,7 @@ line {
         stroke-dashoffset: 950;
         fill-opacity: 0;
     }
-    25% {
+    35% {
         stroke-dashoffset: 950;
         -webkit-stroke-dashoffset: 950;
         -moz-stroke-dashoffset: 950;
@@ -256,7 +256,7 @@ line {
     65% {
         fill-opacity: 0;
     }  
-    80% {
+    100% {
         stroke-dashoffset: 0;
         -webkit-stroke-dashoffset: 0;
         -moz-stroke-dashoffset: 0;
