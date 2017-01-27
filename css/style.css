@@ -177,7 +177,7 @@ line {
   stroke-dasharray: 2350;
   -webkit-stroke-dasharray: 2350;
   -moz-stroke-dasharray: 2350;
-  animation: write1 5s ease;
+  animation: write1 4s ease;
   animation-iteration-count: infinite; 
 }
  
@@ -185,7 +185,7 @@ line {
   stroke-dasharray: 45;
   -webkit-stroke-dasharray: 45;
   -moz-stroke-dasharray: 45;
-  animation: write2 5s ease;    
+  animation: write2 4s ease;    
   animation-iteration-count: infinite; 
 }
  
@@ -193,7 +193,7 @@ line {
   stroke-dasharray: 950;
   -webkit-stroke-dasharray: 950;
   -moz-stroke-dasharray: 950;
-  animation: write3 5s ease;
+  animation: write3 4s ease;
   animation-iteration-count: infinite;
 }
 
@@ -209,6 +209,9 @@ line {
         -moz-stroke-dashoffset: 2350;
         fill-opacity: 0;
     }
+    55% {
+        fill-opacity: 0;
+    }    
     65% {
         stroke-dashoffset: 0;
         -webkit-stroke-dashoffset: 0;
@@ -233,7 +236,10 @@ line {
         -webkit-stroke-dashoffset: 45;
         -moz-stroke-dashoffset: 45;
         fill-opacity: 0;
-    } 
+    }
+    55% {
+        fill-opacity: 0;
+    }   
     65% {
         stroke-dashoffset: 0;
         -webkit-stroke-dashoffset: 0;
@@ -259,6 +265,9 @@ line {
         -moz-stroke-dashoffset: 950;
         fill-opacity: 0;
     }
+    55% {
+        fill-opacity: 0;
+    }   
     65% {
         stroke-dashoffset: 0;
         -webkit-stroke-dashoffset: 0;
