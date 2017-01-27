@@ -277,10 +277,31 @@
             $body.style.overflow = 'auto';
         }
     });
-	
-	
-	
 
+	
+	/*******************************************
+	PARRALAX EFFECT
+	*******************************************/
+	
+	(function(){
+
+  	var parallax = document.querySelectorAll("#firstContainer"),
+      	speed = 0.5;
+
+  	window.onscroll = function(){
+    		[].slice.call(parallax).forEach(function(el,i){
+
+      	var windowYOffset = window.pageYOffset,
+          elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
+
+      	el.style.backgroundPosition = elBackgrounPos;
+
+    	});
+  };
+
+})();
+
+	
 	
 	
 </script>
