@@ -139,7 +139,6 @@ h2 {
     background: url(../images/1stContentBackGround.jpg) no-repeat scroll 50% 0 transparent;
     padding-bottom: 135px;
     /* background-attachment: fixed; */
-    background-attachment: fixed;
     transform: translate3d(0, 0, 0);
 }
 
