@@ -5,14 +5,13 @@
     src: url(../font/DINPro-CondMedium.eot) format('embedded-opentype'),
          url(../font/DINPro-CondMedium.ttf) format('truetype');
 }
-/*
+
 @font-face {
     font-family: 'DinNarrowLight';
     src: url(../font/DINPro-CondLight.otf) format('opentype'),
          url(../font/DINPro-CondLight.ttf) format('truetype');
 }
-*/
-@font-face {
+*/@font-face {
     font-family: 'DinNarrowBold';
     src: url(../font/DINPro-CondBold.eot) format('embedded-opentype'),
          url(../font/DINPro-CondBold.ttf) format('truetype');
@@ -295,7 +294,7 @@ CONTINUE AFTER SVG ANIMATION
     color: #a6dce7;
     /* font-family: arial; */
     font-size: 50px;
-    font-family: 'DinNarrowBold';
+    font-family: 'DinNarrowLight';
     /* margin-left: 15%; */
     /* margin-right: 15%; */
     text-align: center;
