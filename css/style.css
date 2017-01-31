@@ -67,7 +67,7 @@ h2 {
 
 .navbar {
     float: right;
-    margin-right: 100px;
+    padding-right: 100px;
 }
 
 #burgerMenu{
