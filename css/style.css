@@ -527,7 +527,7 @@ CONTINUE AFTER SVG ANIMATION
 .InfoExp h2 {
     padding-bottom: 15px;
     margin-bottom: 15px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px dashed #fff;
 }
 
 .CVcontainer {
@@ -674,7 +674,7 @@ CONTINUE AFTER SVG ANIMATION
 
 .ContactInfo {
     padding-top: 50px;
-    border-top: solid 1px #a6dce7;
+    border-top: dashed 2px #a6dce7;
 }
 
 .ContactInfo h2 {
