@@ -67,14 +67,16 @@ h2 {
 
 .navbar {
     float: right;
+    margin-right: 100px;
 }
+
 #burgerMenu{
         display: none;
     }
 .boutonMenu a {
     float: left;
     text-align: right;
-    padding: 20px 20px;
+    padding: 30px 25px;
     text-decoration: none;
     font-weight: normal;
     color: #fff;
