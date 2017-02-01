@@ -457,6 +457,7 @@ CONTINUE AFTER SVG ANIMATION
     background: url(../images/3rdContentBackGround.jpg) no-repeat scroll 0 0 transparent;
     background-size: 1965px;
     padding-bottom: 115px;
+    padding-top: 20px;
 }
 
 #thirdContainer .IntroBox {
