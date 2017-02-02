@@ -1086,6 +1086,11 @@ CONTINUE AFTER SVG ANIMATION
         display: block;
         margin-top: 30px;
     }
+    
+    svg {
+        width: 300px;
+        margin-top: 125px;
+    }
 
 }
 @media screen and ( max-width: 580px) {
@@ -1131,8 +1136,9 @@ CONTINUE AFTER SVG ANIMATION
         text-align: center;
         padding: 20px 0;
     }
-        svg {
+    svg {
         width: 300px;
+        margin-top: 125px;
     }
 }
 /**
