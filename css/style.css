@@ -124,10 +124,10 @@ h2 {
 .boutonMenu a:focus,
 .boutonMenu a:active {
     /*background-color: #a6dce7; */
-    background: url(../images/Splash_hover.png) no-repeat scroll transparent;
+    background: url(../images/Splash_hover2.png) no-repeat scroll 0 0 transparent;
     transition: 0.3s;
     color: #496676; 
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 
