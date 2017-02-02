@@ -873,6 +873,10 @@ CONTINUE AFTER SVG ANIMATION
     #fourthContainer {
         background-position-x: -115px;
     }
+    
+    .navGauche {
+        display: none;
+    }
 
 }
 @media screen and ( max-width: 767px ) {
@@ -1107,6 +1111,10 @@ CONTINUE AFTER SVG ANIMATION
         width: 300px;
         margin-top: 125px;
     }
+    
+     .navGauche {
+        display: none;
+    }
 
 }
 @media screen and ( max-width: 580px) {
@@ -1155,6 +1163,9 @@ CONTINUE AFTER SVG ANIMATION
     svg {
         width: 300px;
         margin-top: 125px;
+    }
+    .navGauche {
+        display: none;
     }
 }
 /**
