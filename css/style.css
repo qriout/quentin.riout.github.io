@@ -70,6 +70,11 @@ h2 {
     padding-right: 100px;
 }
 
+.navGauche {
+    float: left;
+    margin-left: 100px;
+}
+
 #burgerMenu{
         display: none;
     }
