@@ -145,7 +145,7 @@ h2 {
     background: url(../images/1stContentBackGround.jpg) no-repeat scroll 50% 0 transparent;
     -webkit-background: url(../images/1stContentBackGround.jpg) no-repeat scroll 50% 0 transparent;
     padding-bottom: 135px;
-    /* background-attachment: fixed; */
+    background-attachment: fixed; 
     background-size: cover;
 }
 
@@ -465,6 +465,7 @@ CONTINUE AFTER SVG ANIMATION
     background-size: 1965px;
     padding-bottom: 115px;
     padding-top: 20px;
+    background-size: cover;
 }
 
 #thirdContainer .IntroBox {
@@ -577,6 +578,7 @@ CONTINUE AFTER SVG ANIMATION
     background: url(../images/4thContentBackGround.jpg) no-repeat scroll 0 0 transparent;
     padding-bottom: 100px;
     padding-top: 20px;
+    background-size: cover;
 }
 
 #fourthContainer .IntroBox h1 {
@@ -660,6 +662,7 @@ CONTINUE AFTER SVG ANIMATION
     padding-right: 15%;
     background: url(../images/5thContentBackGround.jpg) no-repeat scroll 0 -55px transparent;
     padding-bottom: 65px;
+    background-size: cover;
 }
 
 #fifthContainer .IntroBox h1 {
@@ -1127,6 +1130,9 @@ CONTINUE AFTER SVG ANIMATION
         width: 100%;
         text-align: center;
         padding: 20px 0;
+    }
+        svg {
+        width: 300px;
     }
 }
 /**
