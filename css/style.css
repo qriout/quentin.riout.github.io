@@ -78,6 +78,17 @@ h2 {
 #burgerMenu{
         display: none;
     }
+
+.navGauche a {
+    float: left;
+    padding: 35px 30px;
+    text-decoration: none;
+    font-weight: normal;
+    color: #fff;
+    font-size: 20px;
+    opacity: 1 !important;
+}   
+
 .boutonMenu a {
     float: left;
     text-align: right;
