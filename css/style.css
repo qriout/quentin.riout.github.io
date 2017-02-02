@@ -76,11 +76,12 @@ h2 {
 .boutonMenu a {
     float: left;
     text-align: right;
-    padding: 30px 25px;
+    padding: 35px 30px;
     text-decoration: none;
     font-weight: normal;
     color: #fff;
     font-size: 20px;
+    opacity: 1 !important;
 }
 
 #menu {
