@@ -142,8 +142,8 @@ h2 {
     /*background-color: #a6dce7; */
     background: url(../images/Splash_hover5.png) no-repeat scroll 0 0 transparent;
     transition: 0.3s;
-    color: #fff; 
-    /* background-size: cover; */
+    color: #a6dce7; 
+    background-size: cover; 
     opacity: 1 !important;
 }
 
