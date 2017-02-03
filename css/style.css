@@ -142,7 +142,7 @@ h2 {
     transition: 0.3s;
     color: #a6dce7; 
     opacity: 1 !important;
-    background: url(../images/Splash_hover6.png) no-repeat scroll 0 0 transparent;
+    /*background: url(../images/Splash_hover6.png) no-repeat scroll 0 0 transparent; */
 }
 
 .navGauche a:hover,
