@@ -424,7 +424,7 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 .secondContainerInfoBox .leftBox {
-    width: 48%;
+    width: 46%;
     float: left;
 }
 
@@ -447,9 +447,9 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 .secondContainerInfoBox .rightBox {
-    width: 48%;
+    width: 46%;
     float: left;
-    margin-left: 4%;
+    margin-left: 8%;
 }
 
 .secondContainerInfoBox .rightBox img {
@@ -466,6 +466,9 @@ CONTINUE AFTER SVG ANIMATION
     width: 100%;
     float: left;
     margin-bottom: 10px;
+    border-radius: 8px;
+    margin-top: 3px;
+    height: 13px;
 }
 
 .secondContainerInfoBox .rightBox .SkillNumber {
