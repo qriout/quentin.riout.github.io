@@ -144,6 +144,14 @@ h2 {
     opacity: 1 !important;
 }
 
+.navGauche a:hover,
+.navGauche a:focus,
+.navGauche a:active {
+    transition: 0.3s;
+    color: #a6dce7; 
+    opacity: 1 !important;
+}    
+
 
 /*1st CONTAINER*/
 
