@@ -634,10 +634,10 @@ CONTINUE AFTER SVG ANIMATION
     display: block;
     margin: auto;
     width: 33.33%;
-    box-shadow: 0px 8px 20px #324a58;
-    -webkit-box-shadow: 0px 8px 20px #324a58;
-    -moz-box-shadow: 0px 8px 20px #324a58;
-    -ms-box-shadow: 0px 8px 20px #324a58;
+    box-shadow: 0px 8px 45px #324a58;
+    -webkit-box-shadow: 0px 8px 45px #324a58;
+    -moz-box-shadow: 0px 8px 45px #324a58;
+    -ms-box-shadow: 0px 8px 45px #324a58;
     border-radius: 220px;
 }
 
@@ -645,10 +645,10 @@ CONTINUE AFTER SVG ANIMATION
 .WorkPic3 {
     float: left;
     width: 33.33%;
-    box-shadow: 0px 8px 20px #324a58;
-    -webkit-box-shadow: 0px 8px 20px #324a58;
-    -moz-box-shadow: 0px 8px 20px #324a58;
-    -ms-box-shadow: 0px 8px 20px #324a58;
+    box-shadow: 0px 8px 45px #324a58;
+    -webkit-box-shadow: 0px 8px 45px #324a58;
+    -moz-box-shadow: 0px 8px 45px #324a58;
+    -ms-box-shadow: 0px 8px 45px #324a58;
     border-radius: 220px;
 }
 
