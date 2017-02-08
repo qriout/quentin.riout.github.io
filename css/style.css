@@ -1110,6 +1110,10 @@ CONTINUE AFTER SVG ANIMATION
         padding-right: 5%;
         background: none;
         padding-bottom: 65px;
+        box-shadow: 0px -3px 23px #324a58;
+        -webkit-box-shadow: 0px -3px 23px #324a58;
+        -moz-box-shadow: 0px -3px 23px #324a58;
+        -ms-box-shadow: 0px -3px 23px #324a58;
     }
 
     #fifthContainer .IntroBox p {
