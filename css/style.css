@@ -168,8 +168,8 @@ h2 {
     background: url(../images/1stContentBackGround.jpg) no-repeat scroll 50% 0 transparent;
     -webkit-background: url(../images/1stContentBackGround.jpg) no-repeat scroll 50% 0 transparent;
     padding-bottom: 130px;
-    background-attachment: fixed; 
-    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 
