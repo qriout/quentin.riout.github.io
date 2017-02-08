@@ -943,7 +943,7 @@ CONTINUE AFTER SVG ANIMATION
     #firstContainer {
         float: left;
         width: 100%;
-        background: url("../images/1stContentBackGround.jpg") no-repeat scroll -450px 0 transparent;
+        background: url("../images/1stContentBackGround.jpg") no-repeat scroll 50% 0 transparent;
         overflow: hidden;
         background-size: cover;
         padding-bottom: 85px;
