@@ -763,7 +763,7 @@ CONTINUE AFTER SVG ANIMATION
     width: 100%;
     background: #23343e;
     float: left;
-    height: 180px;
+    height: 170px;
 }
 
 .BackTop {
@@ -777,7 +777,7 @@ CONTINUE AFTER SVG ANIMATION
     text-align: center;
     border: 2px #a6dce7 solid;
     font-weight: normal;
-    margin-top: 45px;
+    margin-top: 60px;
     min-width: 200px;
     display: block;
     margin-left: auto;
