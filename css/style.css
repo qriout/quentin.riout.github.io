@@ -609,6 +609,7 @@ CONTINUE AFTER SVG ANIMATION
     padding-bottom: 100px;
     padding-top: 20px;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #fourthContainer .IntroBox h1 {
