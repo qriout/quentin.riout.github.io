@@ -612,7 +612,6 @@ CONTINUE AFTER SVG ANIMATION
     background: url(../images/4thContentBackGround.jpg) no-repeat scroll 0 0 transparent;
     padding-bottom: 100px;
     padding-top: 20px;
-    background-size: cover;
     background-attachment: fixed;
 }
 
