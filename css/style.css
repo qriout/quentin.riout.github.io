@@ -1063,8 +1063,8 @@ CONTINUE AFTER SVG ANIMATION
         width: 90%;
         padding-left: 5%;
         padding-right: 5%;
-        background-size: cover;
-        background-position-x: -380px;
+        background-size: 2000px;
+        background-position-x: 0;
     }
 
     #fourthContainer .IntroBox p {
