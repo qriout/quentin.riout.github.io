@@ -624,10 +624,10 @@ CONTINUE AFTER SVG ANIMATION
     padding-bottom: 30px;
     margin-left: 2%;
     margin-right: 2%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 50px;
-    box-shadow: 1px 1px 30px #1b2a33;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 40px #1b2a33;
 }
 
 .WebDesignStar p {
