@@ -628,6 +628,7 @@ CONTINUE AFTER SVG ANIMATION
     border-radius: 25px;
     box-shadow: 3px 3px 40px #dedfdf;
     color: #496676;
+    font-family: DinNarrowBold !important;
 }
 
 .WebDesignStar p {
