@@ -624,6 +624,10 @@ CONTINUE AFTER SVG ANIMATION
     padding-bottom: 50px;
 }
 
+.WebDesignStar p {
+    background: transparent url("../images/WebStar.png") no-repeat scroll 0 0;
+}
+
 /*4th CONTAINER*/
 
 #fourthContainer {
