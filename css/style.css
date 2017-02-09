@@ -625,19 +625,19 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 .WebDesignStar p {
-    background: transparent url(../images/WebStar.png) no-repeat scroll center 60px;
+    background: transparent url(../images/WebStar.png) no-repeat scroll center 70px;
     background-size: 275px;
 }
 .PrintStar p {
-    background: transparent url(../images/PrintStar.png) no-repeat scroll center 60px;
+    background: transparent url(../images/PrintStar.png) no-repeat scroll center 70px;
     background-size: 275px;
 }
 .IlluStar p {
-    background: transparent url(../images/IlluStar.png) no-repeat scroll center 60px;
+    background: transparent url(../images/IlluStar.png) no-repeat scroll center 70px;
     background-size: 275px;
 }
 .MotionStar p {
-    background: transparent url(../images/MotionStar.png) no-repeat scroll center 60px;
+    background: transparent url(../images/MotionStar.png) no-repeat scroll center 70px;
     background-size: 275px;
 }
 
