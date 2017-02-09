@@ -608,6 +608,13 @@ CONTINUE AFTER SVG ANIMATION
     background: #23343e;
 }
 
+.thirdContainer2Reduced {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
 /*4th CONTAINER*/
 
 #fourthContainer {
