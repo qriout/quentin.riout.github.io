@@ -631,19 +631,19 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 .WebDesignStar p {
-    background: #23343e url(../images/WebStar.png) no-repeat scroll center 70px;
+    background: #23343e url(../images/WebStar.png) no-repeat scroll center 40px;
     background-size: 275px;
 }
 .PrintStar p {
-    background: #23343e url(../images/PrintStar.png) no-repeat scroll center 70px;
+    background: #23343e url(../images/PrintStar.png) no-repeat scroll center 40px;
     background-size: 275px;
 }
 .IlluStar p {
-    background: #23343e url(../images/IlluStar.png) no-repeat scroll center 70px;
+    background: #23343e url(../images/IlluStar.png) no-repeat scroll center 40px;
     background-size: 275px;
 }
 .MotionStar p {
-    background: #23343e url(../images/MotionStar.png) no-repeat scroll center 70px;
+    background: #23343e url(../images/MotionStar.png) no-repeat scroll center 40px;
     background-size: 275px;
 }
 
