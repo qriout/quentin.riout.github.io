@@ -618,7 +618,6 @@ CONTINUE AFTER SVG ANIMATION
 .thirdContainer2Reduced p {
     width: 21%;
     float: left;
-    color: #fff;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 30px;
@@ -627,7 +626,8 @@ CONTINUE AFTER SVG ANIMATION
     margin-top: 70px;
     margin-bottom: 70px;
     border-radius: 25px;
-    box-shadow: 1px 1px 40px #1b2a33;
+    box-shadow: 3px 3px 40px #dedfdf;
+    color: #496676;
 }
 
 .WebDesignStar p {
