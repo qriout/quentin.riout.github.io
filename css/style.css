@@ -605,7 +605,7 @@ CONTINUE AFTER SVG ANIMATION
 #thirdContainer2 {
     float: left;
     width: 100%;
-    background: #23343e;
+    background: #fff;
 }
 
 .thirdContainer2Reduced {
@@ -631,19 +631,19 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 .WebDesignStar p {
-    background: #23343e url(../images/WebStar.png) no-repeat scroll center 40px;
+    background: #fff url(../images/WebStar.png) no-repeat scroll center 40px;
     background-size: 275px;
 }
 .PrintStar p {
-    background: #23343e url(../images/PrintStar.png) no-repeat scroll center 40px;
+    background: #fff url(../images/PrintStar.png) no-repeat scroll center 40px;
     background-size: 275px;
 }
 .IlluStar p {
-    background: #23343e url(../images/IlluStar.png) no-repeat scroll center 40px;
+    background: #fff url(../images/IlluStar.png) no-repeat scroll center 40px;
     background-size: 275px;
 }
 .MotionStar p {
-    background: #23343e url(../images/MotionStar.png) no-repeat scroll center 40px;
+    background: #fff url(../images/MotionStar.png) no-repeat scroll center 40px;
     background-size: 275px;
 }
 
