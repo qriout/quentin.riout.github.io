@@ -602,6 +602,12 @@ CONTINUE AFTER SVG ANIMATION
     transition: 0.3s;
 }
 
+#thirdContainer2 {
+    float: left;
+    width: 100%;
+    background: #23343e;
+}
+
 /*4th CONTAINER*/
 
 #fourthContainer {
