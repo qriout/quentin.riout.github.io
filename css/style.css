@@ -626,22 +626,24 @@ CONTINUE AFTER SVG ANIMATION
     margin-right: 2%;
     margin-top: 40px;
     margin-bottom: 40px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 30px #1b2a33;
 }
 
 .WebDesignStar p {
-    background: transparent url(../images/WebStar.png) no-repeat scroll center 70px;
+    background: #23343e url(../images/WebStar.png) no-repeat scroll center 70px;
     background-size: 275px;
 }
 .PrintStar p {
-    background: transparent url(../images/PrintStar.png) no-repeat scroll center 70px;
+    background: #23343e url(../images/PrintStar.png) no-repeat scroll center 70px;
     background-size: 275px;
 }
 .IlluStar p {
-    background: transparent url(../images/IlluStar.png) no-repeat scroll center 70px;
+    background: #23343e url(../images/IlluStar.png) no-repeat scroll center 70px;
     background-size: 275px;
 }
 .MotionStar p {
-    background: transparent url(../images/MotionStar.png) no-repeat scroll center 70px;
+    background: #23343e url(../images/MotionStar.png) no-repeat scroll center 70px;
     background-size: 275px;
 }
 
