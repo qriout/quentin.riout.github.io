@@ -1198,8 +1198,8 @@ CONTINUE AFTER SVG ANIMATION
         display: none;
     }
     
-     .thirdContainer2Reduced p {
-        width: 45%;
+    .thirdContainer2Reduced p {
+        width: 100%;
     }
 
 }
