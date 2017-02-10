@@ -607,7 +607,7 @@ CONTINUE AFTER SVG ANIMATION
 #thirdContainer2 {
     float: left;
     width: 100%;
-    background: #fff;
+    background: url(../images/5thContentBackGround.jpg) no-repeat scroll 0 -195px #fff;
 }
 
 .thirdContainer2Reduced {
