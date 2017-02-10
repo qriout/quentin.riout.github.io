@@ -1206,6 +1206,11 @@ CONTINUE AFTER SVG ANIMATION
     .thirdContainer2Reduced p {
         width: 100%;
     }
+    
+    #thirdContainer2 {
+        background-image: none;
+        background-color: #fff;
+    }    
 
 }
 @media screen and ( max-width: 580px) {
@@ -1259,10 +1264,6 @@ CONTINUE AFTER SVG ANIMATION
         display: none;
     }
     
-     #thirdContainer2 {
-        background-image: none;
-        background-color: #fff;
-    }    
 }
 /**
  * iPhone 5
