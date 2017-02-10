@@ -835,8 +835,8 @@ CONTINUE AFTER SVG ANIMATION
 /*Media queries*/
 
 @media screen and (max-width: 1366px) {
-   .thirdContainer2Reduced p {
-        width: 45%;
+    .thirdContainer2Reduced p {
+        width: 44%;
     }
 }
 
