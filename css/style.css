@@ -618,19 +618,20 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 .thirdContainer2Reduced p {
-    width: 21%;
+    width: 19%;
     float: left;
     text-align: center;
     padding-top: 80px;
-    padding-bottom: 30px;
-    margin-left: 2%;
-    margin-right: 2%;
+    padding-bottom: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
     margin-top: 70px;
     margin-bottom: 70px;
-    border-radius: 25px;
-    box-shadow: 3px 3px 40px #dedfdf;
+    border-radius: 0;
+    /* box-shadow: 3px 3px 40px #dedfdf; */
     color: #496676;
     font-family: DinNarrowBold !important;
+    border-bottom: 2px dashed #496676;
 }
 
 .WebDesignStar p {
