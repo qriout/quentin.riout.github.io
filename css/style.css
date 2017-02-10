@@ -959,6 +959,11 @@ CONTINUE AFTER SVG ANIMATION
     .navGauche {
         display: none;
     }
+    
+    #thirdContainer2 {
+        background-image: none;
+        background-color: #fff;
+    }    
 
 }
 @media screen and ( max-width: 767px ) {
@@ -1253,6 +1258,11 @@ CONTINUE AFTER SVG ANIMATION
     .navGauche {
         display: none;
     }
+    
+     #thirdContainer2 {
+        background-image: none;
+        background-color: #fff;
+    }    
 }
 /**
  * iPhone 5
