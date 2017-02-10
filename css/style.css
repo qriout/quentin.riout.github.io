@@ -621,7 +621,7 @@ CONTINUE AFTER SVG ANIMATION
     width: 19%;
     float: left;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 20px;
     margin-left: 3%;
     margin-right: 3%;
@@ -635,19 +635,19 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 .WebDesignStar p {
-    background: #fff url(../images/WebStar.png) no-repeat scroll center 30px;
+    background: #fff url(../images/WebStar.png) no-repeat scroll center 10px;
     background-size: 270px;
 }
 .PrintStar p {
-    background: #fff url(../images/PrintStar.png) no-repeat scroll center 30px;
+    background: #fff url(../images/PrintStar.png) no-repeat scroll center 10px;
     background-size: 270px;
 }
 .IlluStar p {
-    background: #fff url(../images/IlluStar.png) no-repeat scroll center 30px;
+    background: #fff url(../images/IlluStar.png) no-repeat scroll center 10px;
     background-size: 270px;
 }
 .MotionStar p {
-    background: #fff url(../images/MotionStar.png) no-repeat scroll center 30px;
+    background: #fff url(../images/MotionStar.png) no-repeat scroll center 10px;
     background-size: 270px;
 }
 
