@@ -661,8 +661,8 @@ CONTINUE AFTER SVG ANIMATION
     background: url(../images/4thContentBackGround.jpg) no-repeat scroll 0 0 transparent;
     padding-bottom: 175px;
     padding-top: 20px;
-    /*background-attachment: fixed;
-    background-size: cover; */
+    background-attachment: fixed;
+    background-size: cover; 
 }
 
 #fourthContainer .IntroBox h1 {
