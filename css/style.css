@@ -607,8 +607,7 @@ CONTINUE AFTER SVG ANIMATION
 #thirdContainer2 {
     float: left;
     width: 100%;
-    background: url(../images/5thContentBackGround.jpg) no-repeat scroll 0 -195px #fff;
-}
+    background: #23343e;
 
 .thirdContainer2Reduced {
     display: block;
@@ -629,7 +628,7 @@ CONTINUE AFTER SVG ANIMATION
     margin-bottom: 70px;
     border-radius: 0;
     /* box-shadow: 3px 3px 40px #dedfdf; */
-    color: #496676;
+    color: #fff;
     font-family: DinNarrowBold !important;
     border-bottom: 2px dashed #a6dce7;
 }
