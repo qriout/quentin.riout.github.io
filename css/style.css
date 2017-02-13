@@ -525,6 +525,10 @@ CONTINUE AFTER SVG ANIMATION
     color: #496676;
 }
 
+.thirdContainerInfoBox .InfoExp p span {
+    font-family: DinNarrowBold;
+}
+
 .thirdContainerInfoBox .leftBox {
     width: 46%;
     float: left;
