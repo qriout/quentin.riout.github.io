@@ -1278,3 +1278,9 @@ CONTINUE AFTER SVG ANIMATION
     height: 500px;
   }
 }
+
+@media screen and (device-aspect-ratio: 3/4) {
+    #menu.open {
+    height: 500px;
+  }
+}
