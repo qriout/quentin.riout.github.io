@@ -837,7 +837,7 @@ CONTINUE AFTER SVG ANIMATION
 
 /*Media queries*/
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1900px) {
         svg {
         margin-top: 300px;
     }
