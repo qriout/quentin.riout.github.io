@@ -837,6 +837,17 @@ CONTINUE AFTER SVG ANIMATION
 
 /*Media queries*/
 
+@media screen and (min-width: 1920px) {
+        svg {
+        margin-top: 300px;
+    }
+
+        #firstContainer {
+        padding-bottom: 250px;
+    }
+
+}
+
 @media screen and (max-width: 1366px) {
     .thirdContainer2Reduced p {
         width: 44%;
