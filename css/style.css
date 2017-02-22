@@ -839,11 +839,11 @@ CONTINUE AFTER SVG ANIMATION
 
 @media screen and (min-width: 1900px) {
         svg {
-        margin-top: 350px;
+        margin-top: 300px;
     }
 
         #firstContainer {
-        padding-bottom: 300px;
+        padding-bottom: 350px;
     }
 
 }
