@@ -826,12 +826,16 @@ CONTINUE AFTER SVG ANIMATION
 /*Media queries*/
 
 @media screen and (min-width: 1900px) {
-        svg {
+    svg {
         margin-top: 300px;
     }
 
-        #firstContainer {
+    #firstContainer {
         padding-bottom: 350px;
+    }
+    
+    .SubFirstContainer h1 {
+        font-size: 65px;
     }
 
 }
