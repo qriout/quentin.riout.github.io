@@ -462,28 +462,28 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 .ps {
-    background: url("../images/Photoshop.png") no-repeat 85px 0;
-    background-size: 30px;
+    background: url("../images/Photoshop.png") no-repeat 0px 4px;
+    background-size: 35px;
 }
 .html {
-    background: url("../images/HTML.png") no-repeat 85px 0;
-    background-size: 30px;
+    background: url("../images/HTML.png") no-repeat 0px 4px;
+    background-size: 35px;
 }
 .id {
-    background: url("../images/Indesign.png") no-repeat 85px 0;
-    background-size: 30px;
+    background: url("../images/Indesign.png") no-repeat 0px 4px;
+    background-size: 35px;
 }
 .ai {
-    background: url("../images/Illustrator.png") no-repeat 85px 0;
-    background-size: 30px;
+    background: url("../images/Illustrator.png") no-repeat 0px 4px;
+    background-size: 35px;
 }
 .ae {
-    background: url("../images/After.png") no-repeat 85px 0;
-    background-size: 30px;
+    background: url("../images/After.png") no-repeat 0px 4px;
+    background-size: 35px;
 }
 .pr {
-    background: url("../images/Premiere.png") no-repeat 85px 0;
-    background-size: 30px;
+    background: url("../images/Premiere.png") no-repeat 0px 4px;
+    background-size: 35px;
 }
 
 .secondContainerInfoBox .rightBox .SkillBar {
