@@ -463,21 +463,27 @@ CONTINUE AFTER SVG ANIMATION
 
 .ps {
     background: url("../images/Photoshop.png") no-repeat 85px 0;
+    background-size: 30px;
 }
 .html {
     background: url("../images/HTML.png") no-repeat 85px 0;
+    background-size: 30px;
 }
 .id {
     background: url("../images/Indesign.png") no-repeat 85px 0;
+    background-size: 30px;
 }
 .ai {
     background: url("../images/Illustrator.png") no-repeat 85px 0;
+    background-size: 30px;
 }
 .ae {
     background: url("../images/After.png") no-repeat 85px 0;
+    background-size: 30px;
 }
 .pr {
     background: url("../images/Premiere.png") no-repeat 85px 0;
+    background-size: 30px;
 }
 
 .secondContainerInfoBox .rightBox .SkillBar {
