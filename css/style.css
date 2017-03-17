@@ -459,31 +459,32 @@ CONTINUE AFTER SVG ANIMATION
 
 .secondContainerInfoBox .rightBox .SkillName {
     font-family: 'DinNarrowBold' !important;
+    padding-left: 45px;
 }
 
 .ps {
-    background: url("../images/Photoshop.png") no-repeat 0px 4px;
-    background-size: 35px;
+    background: url("../images/Photoshop.png") no-repeat 0px 10px;
+    background-size: 32px;
 }
 .html {
-    background: url("../images/HTML.png") no-repeat 0px 4px;
-    background-size: 35px;
+    background: url("../images/HTML.png") no-repeat 0px 10px;
+    background-size: 32px;
 }
 .id {
-    background: url("../images/Indesign.png") no-repeat 0px 4px;
-    background-size: 35px;
+    background: url("../images/Indesign.png") no-repeat 0px 10px;
+    background-size: 32px;
 }
 .ai {
-    background: url("../images/Illustrator.png") no-repeat 0px 4px;
-    background-size: 35px;
+    background: url("../images/Illustrator.png") no-repeat 0px 10px;
+    background-size: 32px;
 }
 .ae {
-    background: url("../images/After.png") no-repeat 0px 4px;
-    background-size: 35px;
+    background: url("../images/After.png") no-repeat 0px 10px;
+    background-size: 32px;
 }
 .pr {
-    background: url("../images/Premiere.png") no-repeat 0px 4px;
-    background-size: 35px;
+    background: url("../images/Premiere.png") no-repeat 0px 10px;
+    background-size: 32px;
 }
 
 .secondContainerInfoBox .rightBox .SkillBar {
@@ -497,12 +498,12 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 .secondContainerInfoBox .rightBox .SkillNumber {
-    text-align: right;
+    float: right;
 }
 
 .secondContainerInfoBox .rightBox label {
     float: left;
-    padding-top: 15px;
+    padding-top: 18px;
     font-size: 20px;
 }
 
