@@ -461,6 +461,25 @@ CONTINUE AFTER SVG ANIMATION
     font-family: 'DinNarrowBold' !important;
 }
 
+.ps {
+    background: url("../images/Photoshop.png") no-repeat 85px 0;
+}
+.html {
+    background: url("../images/HTML.png") no-repeat 85px 0;
+}
+.id {
+    background: url("../images/Indesign.png") no-repeat 85px 0;
+}
+.ai {
+    background: url("../images/Illustrateur.png") no-repeat 85px 0;
+}
+.ae {
+    background: url("../images/After.png") no-repeat 85px 0;
+}
+.pr {
+    background: url("../images/Premiere.png") no-repeat 85px 0;
+}
+
 .secondContainerInfoBox .rightBox .SkillBar {
     margin-left: 0 !important;
     width: 100%;
