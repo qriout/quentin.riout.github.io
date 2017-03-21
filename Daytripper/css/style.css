@@ -93,7 +93,7 @@ a:focus {
 .RightNavButton:hover,
 .RightNavButton:focus,
 .RightNavButton:active {
-	background: url(../images/NavSelector2.png) no-repeat 0 bottom scroll;
+	background: url(../images/NavSelector.png) no-repeat 0 bottom scroll;
 }
 
 
