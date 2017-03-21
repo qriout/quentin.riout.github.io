@@ -133,6 +133,10 @@ a:focus {
 
 /* SECOND BLOCK */
 
+#Block2 {
+    background: url(../images/WomanFadeWhite.jpg) no-repeat 0 0 scroll;
+}
+
 .Block2Title {
     padding-top: 90px;
     display: block;
