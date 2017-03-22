@@ -423,7 +423,7 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 .secondContainerInfoBox .leftBox {
-    width: 46%;
+    width: 50%;
     float: left;
 }
 
@@ -446,7 +446,7 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 .secondContainerInfoBox .rightBox {
-    width: 46%;
+    width: 42%;
     float: left;
     margin-left: 8%;
 }
