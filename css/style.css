@@ -1258,8 +1258,13 @@ CONTINUE AFTER SVG ANIMATION
         background-image: none;
         background-color: #23343e;
     }    
+    
+    #secondContainer .IntroBox {
+        background: none;
+    }
 
 }
+
 @media screen and ( max-width: 580px) {
 
     #menu{
