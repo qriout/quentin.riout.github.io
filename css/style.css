@@ -1049,10 +1049,10 @@ CONTINUE AFTER SVG ANIMATION
     }
 
     .ViewProfile a {
-        width: 100%;
+        width: 75%;
         padding: 15px 0;
         border: 2px #a6dce7 solid;
-    /* font-size: 30px; */
+        /* font-size: 30px; */
     }
 
     #firstContainer {
