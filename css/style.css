@@ -852,6 +852,7 @@ CONTINUE AFTER SVG ANIMATION
 /*Media queries*/
 
 @media screen and (min-width: 1900px) {
+    /*
     svg {
         margin-top: 300px;
     }
@@ -863,7 +864,7 @@ CONTINUE AFTER SVG ANIMATION
     .SubFirstContainer h1 {
         font-size: 65px;
     }
-
+    */
 }
 
 @media screen and (max-width: 1366px) {
