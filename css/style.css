@@ -394,10 +394,9 @@ CONTINUE AFTER SVG ANIMATION
     width: 70%;
     padding-left: 15%;
     padding-right: 15%;
-    background: url(../images/2ndContentBackGround.jpg) no-repeat scroll -60px 45px transparent;
+    background: #fff;
     padding-bottom: 100px;
     padding-top: 20px;
-    background-size: cover;
 }
 
 #secondContainer .IntroBox h1 {
