@@ -388,13 +388,12 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 /*2nd CONTAINER*/
-
 #secondContainer {
     float: left;
     width: 70%;
     padding-left: 15%;
     padding-right: 15%;
-    background: #fff url("../images/2ndContainerSplat.png") no-repeat scroll 0 0;
+    background: #fff url("../images/2ndContainerSplat.png") no-repeat scroll -270px 570px;
     padding-bottom: 100px;
     padding-top: 20px;
 }
