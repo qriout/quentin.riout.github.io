@@ -863,11 +863,6 @@ CONTINUE AFTER SVG ANIMATION
     .SubFirstContainer h1 {
         font-size: 65px;
     }
-    
-     #secondContainer {
-        background: #fff url("../images/2ndContainerSplat4.png") no-repeat scroll 0 320px;
-        background-size: 575px;
-    }
 
 }
 
