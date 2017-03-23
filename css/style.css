@@ -388,6 +388,7 @@ CONTINUE AFTER SVG ANIMATION
 }
 
 /*2nd CONTAINER*/
+
 #secondContainer {
     float: left;
     width: 70%;
@@ -396,6 +397,10 @@ CONTINUE AFTER SVG ANIMATION
     background: #fff url("../images/2ndContainerSplat.png") no-repeat scroll -270px 570px;
     padding-bottom: 100px;
     padding-top: 20px;
+}
+
+#secondContainer .IntroBox {
+    background: transparent url("../images/2ndContainerSplat.png") no-repeat scroll right center;
 }
 
 #secondContainer .IntroBox h1 {
