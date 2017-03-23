@@ -772,8 +772,9 @@ CONTINUE AFTER SVG ANIMATION
     float: left;
     padding-left: 15%;
     padding-right: 15%;
-    background: #fff url(../images/2ndContainerSplat3.png) no-repeat scroll right top ;
+    background: #fff url(../images/2ndContainerSplat3.png) no-repeat scroll 85% 13px;
     padding-bottom: 100px;
+    background-size: 380px;
 }
 
 #fifthContainer .IntroBox h1 {
@@ -916,7 +917,11 @@ CONTINUE AFTER SVG ANIMATION
         width: 100%;
         color: #496676;
     }
-
+    
+    #secondContainer .IntroBox {
+        background: none;
+    }
+    
     .secondContainerInfoBox .leftBox {
         width: 100%;
         float: left;
@@ -984,7 +989,8 @@ CONTINUE AFTER SVG ANIMATION
     }
 
     #fifthContainer {
-        background: url(../images/5thContentBackGround.jpg) no-repeat scroll -70px -55px transparent;
+        background-image: none;
+        background-color: #fff;
     }
 
     #fourthContainer {
