@@ -772,9 +772,8 @@ CONTINUE AFTER SVG ANIMATION
     float: left;
     padding-left: 15%;
     padding-right: 15%;
-    background: url(../images/5thContentBackGround.jpg) no-repeat scroll -20px 9px transparent;
+    background: #fff url(../images/2ndContainerSplat3.png) no-repeat scroll right top ;
     padding-bottom: 100px;
-    background-size: cover;
 }
 
 #fifthContainer .IntroBox h1 {
