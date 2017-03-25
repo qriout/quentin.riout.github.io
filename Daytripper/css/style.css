@@ -63,7 +63,8 @@ a:focus {
     width: 100%;
     z-index: 10;
     margin-bottom: 60px;
-    border-bottom: 1px solid #dccfc7;
+    /* border-bottom: 1px solid #dccfc7; */
+    opacity: 0.9;
 }
 
 .NavButton {
@@ -101,7 +102,8 @@ a:focus {
 
 #Block1 {
     background: #bfa89d;
-    padding-top: 80px;
+    /* padding-top: 80px; */
+    border-top: 80px solid #fff;
 }
 
 .Block1Img img {
