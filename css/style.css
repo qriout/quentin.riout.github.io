@@ -187,11 +187,11 @@ SVG TEST ANIMATION
 *******************************************************************************************/
 
 svg {
-    width: 300px;
+    width: 350px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 160px;
+    margin-top: 175px;
     margin-bottom: 30px;
 }
 
@@ -323,7 +323,7 @@ CONTINUE AFTER SVG ANIMATION
 .SubFirstContainer h1 {
     color: #a6dce7;
     /* font-family: arial; */
-    font-size: 50px;
+    font-size: 65px;
     font-family: 'DinNarrowMedium';
     /* margin-left: 15%; */
     /* margin-right: 15%; */
