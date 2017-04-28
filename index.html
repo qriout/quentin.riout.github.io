@@ -324,14 +324,14 @@
 })();
 
 	
-	
-$(document).on('click', 'a', function(event){
-    event.preventDefault();
+$('a[href^="#"]').click(function(){
+	var the_id = $(this).attr("href");
 
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
-});
+	$('html, body').animate({
+		scrollTop:$(the_id).offset().top
+	}, 'slow');
+	return false;
+});	
 	
 	
 	
