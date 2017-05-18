@@ -415,6 +415,7 @@ CONTINUE AFTER SVG ANIMATION
 .IntroBox {
     margin-bottom: 50px;
     margin-top: 30px;
+    background: transparent url("../images/testNumb1.png") no-repeat scroll 0 0;
 }
 
 .secondContainerInfoBox img {
