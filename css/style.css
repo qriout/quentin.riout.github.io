@@ -1155,8 +1155,7 @@ CONTINUE AFTER SVG ANIMATION
         width: 90%;
         padding-left: 5%;
         padding-right: 5%;
-        background-size: 2000px;
-        background-position-x: -200px;
+        background: url(../images/4thContentBackGroundMobile.jpg) no-repeat; 
     }
 
     #fourthContainer .IntroBox p {
