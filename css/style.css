@@ -454,6 +454,15 @@ CONTINUE AFTER SVG ANIMATION
     font-family: 'DinNarrowMedium' !important;
 }
 
+.DigitalBox {
+    width: 100%;
+    float: left;
+}
+
+#secondContainer .DigitalBox h2 {
+    color: #496676;
+}
+
 .secondContainerInfoBox .rightBox {
     width: 42%;
     float: left;
