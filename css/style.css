@@ -462,6 +462,8 @@ CONTINUE AFTER SVG ANIMATION
 
 #secondContainer .DigitalBox h2 {
     color: #496676;
+    margin-left: 30px;
+    margin-bottom: 25px;
 }
 
 .secondContainerInfoBox .rightBox {
