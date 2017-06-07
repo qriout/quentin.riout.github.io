@@ -101,6 +101,11 @@ h2 {
     opacity: 1 !important;
 }
 
+.NavPortfolio a {
+    background: #a6dce7;
+    color: #23343e;
+}
+
 #menu {
     width: 100%;
     background: #23343e;
