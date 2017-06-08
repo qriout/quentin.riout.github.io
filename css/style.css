@@ -152,6 +152,13 @@ h2 {
     
 }
 
+.NavPortfolio a:hover,
+.NavPortfolio a:focus,
+.NavPortfolio a:active {
+    background: #B6E2EB;
+    color: #23343e;
+}
+
 .navGauche a:hover,
 .navGauche a:focus,
 .navGauche a:active {
