@@ -427,7 +427,7 @@ CONTINUE AFTER SVG ANIMATION
     padding-top: 60px;
     float: left;
     width: 100%;
-    border-top: 2px solid #a6dce7;
+    border-top: 1px solid #a6dce7;
 }
 
 .secondContainerInfoBox img {
@@ -562,7 +562,7 @@ CONTINUE AFTER SVG ANIMATION
     width: 100%;
     float: left;
     padding-top: 50px;
-    border-top: solid 2px #fff;
+    border-top: solid 1px #fff;
 }
 
 #thirdContainer .IntroBox h1 {
